@@ -4,7 +4,7 @@
 
 ### **<u>严禁使用本工具做违法事情</u>**
 
-#  dy-get使用方法:
+#  dy-get 使用方法:
 
 ```bash
 python3 dy-get.py
@@ -29,7 +29,13 @@ python3 dy-get.py
 
 
 
-# dy-get自定义
+# dy-get 自定义
 
 dy-get是完全支持自定义的
+
+![](./markdown/code-snapshot1.png)
+
+THREAD_NUM 线程数，默认为12线程
+
+HEADER 请求头，默认为空格，如果没有，必须要一个空格
 

@@ -8,6 +8,9 @@ from concurrent.futures import ThreadPoolExecutor
 from requests import get, head
 import time
 
+# 自定义
+THREAD_NUM=12 # 线程数，默认为12个
+HEADER=" "# 请求头，默认为一个空格
 
 class downloader:
     def __init__(self, url, num, name):
